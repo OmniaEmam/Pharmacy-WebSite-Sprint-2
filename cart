@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+    <body> 
+        
+ <head>
+ <!---------------------------Head------------------------------------------->
+<title>Cart</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            
+<style>
+/*----CSS----*/
+/*---------HEADER--------*/
+body {
+ 
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color:#ccedd2;
+  padding: 10px;
+  font: Serif;
+  text-align: center;
+  color: #000000;
+}
+/*--------------------TopBar-----------------*/
+  /* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #94d3ac;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ccedd2;
+  color: black;
+}
+
+ /*------------------- background ----------------------*/   
+body {
+  background: #655c56; /* fallback for old browsers */}  
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:#ccedd2;
+  padding: 10px;
+  font: Serif;
+  text-align: center;
+  color: #000000;
+}
+    
+    h2{
+    color: #ccedd2;
+    text-align: center;
+        font-size:50px; 
+    margin-right: 20px;
+    } 
+    
+
+    
+    
+.img1
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:300px;
+    left:5px;
+}
+
+
+        
+.img1:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img1 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img1_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img1 button:hover {
+  opacity: 0.7;
+}
+
+    
+   
+    
+    
+    
+    .img2
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:300px;
+    left:330px;
+}
+
+
+        
+.img2:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img2 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img2_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img2 button:hover {
+  opacity: 0.7;
+}
+    
+    
+    
+ 
+    
+.img3
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:300px;
+    left:660px;
+}
+
+
+        
+.img3:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img3 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img3_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img3 button:hover {
+  opacity: 0.7;
+}
+    
+    
+
+    
+    
+    .img4
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:300px;
+    left:990px;
+}
+
+
+        
+.img4:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img4 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img4_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img4 button:hover {
+  opacity: 0.7;
+}
+    
+    
+    
+    
+    
+
+    
+    
+    
+.img5
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:800px;
+    left:5px;
+}
+
+
+        
+.img5:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img5 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img5_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img5 button:hover {
+  opacity: 0.7;
+}
+
+    
+   
+    
+    
+    
+    .img6
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:800px;
+    left:330px;
+}
+
+
+        
+.img6:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img6 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img6_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img6 button:hover {
+  opacity: 0.7;
+}
+    
+    
+    
+ 
+    
+.img7
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:800px;
+    left:660px;
+}
+
+
+        
+.img7:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img7 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img7_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img7 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img7 button:hover {
+  opacity: 0.7;
+}
+    
+    
+
+    
+    
+    .img8
+{
+    margin: 5px;
+    border: 3px solid #ccedd2;
+    width: 270px;
+    float: right;
+    position:absolute;
+    top:800px;
+    left:990px;
+}
+
+
+        
+.img8:hover 
+{
+    border: 3px solid black;
+}
+        
+        
+.img8 img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+        
+        
+.img8_desc 
+{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    color:white;
+}
+.img8 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.img8 button:hover {
+  opacity: 0.7;
+}
+    
+/*<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>*/
+    
+    
+
+</style>
+</head>
+
+    <div class="header">
+  
+                
+                
+<h1>P H A R M A</h1>
+</div>
+ <!----------------TopBar----------------->
+ <div class="topnav">
+  <a href="Home.php">Home</a>
+  <a href="Store.php">Store</a>
+     <a href="cart.php">Cart</a>
+     <a href="Ask%20for%20Medical%20Advise.php">Ask Us</a>
+     <a href="Feed%20back.php">Feedback</a>
+</div>
+
+<h2 style="text-align:center">Product Card</h2>
+        
+    <div class="img1">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%201.jpg"></a>
+    <div class="img1_desc">
+    <strong>Suger Medicines</strong><br>
+        Code : 101<br>
+        Price : 50$<br>
+        <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+        </div>
+        </div>
+        
+    
+        
+    <div class="img2">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%202.jpg"></a>
+    <div class="img2_desc">
+    <strong>Pressure Medicines</strong><br>
+        Code : 102<br>
+        Price : 200$<br>
+    <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+        </div>
+        </div>
+        
+        
+    <div class="img3">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%203.jpg"></a>
+    <div class="img3_desc">
+    <strong>Child Medicines</strong><br>
+        Code : 103<br>
+        Price : 150$<br>
+   <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+    
+    
+        
+    </div>
+    </div>
+        
+    
+        
+        
+    <div class="img4">
+   <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%204.png"></a>
+    <div class="img4_desc">
+    <strong>Luqid Medicines</strong><br>
+        Code : 104<br>
+        Price : 600$<br>
+    <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+    
+    
+        
+    </div>
+    </div>
+        
+        
+        
+        
+        
+        
+        
+<div class="img5">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%205.jpg"></a>
+    <div class="img5_desc">
+    <strong>Suger Medicines</strong><br>
+        Code : 105<br>
+        Price : 50$<br>
+   <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+        </div>
+        </div>
+        
+    
+        
+    <div class="img6">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Med%206.jpg"></a>
+    <div class="img6_desc">
+    <strong>Pressure Medicines</strong><br>
+        Code : 106<br>
+        Price : 200$<br>
+   <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+        </div>
+        </div>
+        
+        
+    <div class="img7">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Pro%201.jpg"></a>
+    <div class="img7_desc">
+    <strong>Child Medicines</strong><br>
+        Code : 107<br>
+        Price : 150$<br>
+    <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+    
+    
+        
+    </div>
+    </div>
+        
+    
+        
+        
+    <div class="img8">
+    <a target="_blank" href="CheckOutForm.php">
+    <img src="Pro%202.jpg"></a>
+    <div class="img8_desc">
+    <strong>Luqid Medicines</strong><br>
+        Code : 108<br>
+        Price : 600$<br>
+    <a href="CheckOutForm.php" target="_blank"><p><button>Buy</button></p></a>
+    <div id="result"></div>
+    
+    
+        
+    </div>
+    </div>
+     
+
+
+
+</body>
+</html>
